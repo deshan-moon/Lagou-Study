@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 求员工工资
+    function makeSalary(salary) {
+      return function (performance) {
+        return salary + performance
+      }
+    }
+    let sal2 = makeSalary(20000)
+    let sal3 = makeSalary(30000)
+    console.log(sal2(2000))
+    console.log(sal3(3000));
+  </script>
+</body>
+
+</html>

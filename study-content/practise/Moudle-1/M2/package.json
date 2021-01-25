@@ -1,0 +1,15 @@
+{
+  "name": "M2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "devDependencies": {
+    "url-loader": "^4.1.1"
+  }
+}
