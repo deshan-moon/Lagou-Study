@@ -85,6 +85,8 @@ obj2.foo()
 
 4. 严格模式下原本应该指向全局的 `this` 都会指向 `undefined`
 
+
+
 ### 改变this指向的方法：call()   apply()   bind()都是用来重定义 this 这个对象的
 
 ```javascript
