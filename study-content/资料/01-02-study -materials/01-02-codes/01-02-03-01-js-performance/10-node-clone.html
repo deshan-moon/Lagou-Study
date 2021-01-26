@@ -9,13 +9,14 @@
   <p id="box1">old</p>
 
   <script>
-
+    // 优化前：
     for (var i = 0; i < 3; i++) {
       var oP = document.createElement('p')
       oP.innerHTML = i 
       document.body.appendChild(oP)
     }
 
+    // 优化后：
     var oldP = document.getElementById('box1')
     for (var i = 0; i < 3; i++) {
       var newP = oldP.cloneNode(false)

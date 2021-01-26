@@ -1,4 +1,4 @@
-// 输入、输出路径方法、同步组合任务、异步zuherenwu
+// src读取流、dest写入流、同步组合任务、异步zuherenwu
 const { src, dest, parallel, series, watch } = require('gulp')
 // 清除方法
 const del = require('del')
